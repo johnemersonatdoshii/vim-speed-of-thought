@@ -1,0 +1,33 @@
+{
+  "name": "vim-speed-of-thought",
+  "version": "1.0.0",
+  "description": "Vim technology workshop repository",
+  "main": "src/index.ts",
+  "scripts": {
+    "search": "ts-node src/ex2/search.ts",
+    "test": "jest src/ex2/search.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnemersonatdoshii/vim-speed-of-thought.git"
+  },
+  "keywords": [
+    "Vim"
+  ],
+  "author": "John Emerson Requizo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnemersonatdoshii/vim-speed-of-thought/issues"
+  },
+  "homepage": "https://github.com/johnemersonatdoshii/vim-speed-of-thought#readme",
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "sequelize": "^6.35.0"
+  }
+}
