@@ -16,6 +16,10 @@ type Car = {
   isSecondHand: boolean;
 };
 
+/**
+ * 1. Delete nissan skyline and replace the object with a Tesla
+ * 2. Add prices for each of the cars
+ */
 const cars: Car[] = [
   {
     make: 'Toyota',
@@ -24,7 +28,7 @@ const cars: Car[] = [
     isSecondHand: false
   },
   {
-    make: 'Nissa',
+    make: 'Nissan',
     model: 'Skyline R34',
     year: 1998,
     mileage: 201948,
@@ -55,6 +59,8 @@ const prinCars = (cars: Car[]): void => {
  * 'Never gonna'
  * 
  * 2. Change the function name 
+ * 
+ * ########################################################################
  * We're no strangers to love
  * You know the rules and so do I (do I)
  * A full commitment's what I'm thinking of
@@ -81,8 +87,6 @@ const prinCars = (cars: Car[]): void => {
  * Never gonna let you down
  * Never gonna run around and desert you
  * Never gonna make you cry
- * Never gonna say goodbye
- * Never gonna tell a lie and hurt you
  * 
  * We've known each other for so long
  * Your heart's been aching, but you're too shy to say it (to say it)
